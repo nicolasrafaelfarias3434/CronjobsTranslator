@@ -1,0 +1,5 @@
+Ambiente,Namespace,Cronjob,Verbo,EndpointServicio,ShortEndpointServicio,Horario,Suspend
+PROD,api-mia,mia-cronjob-reprocesar-algo,GET,http://api-mia.apps.prod.lalala.com.ar/api/Procesos/Reprocesar,/api/Procesos/ReprocesarAlgo,0 4 * * *,false
+TEST,api-mia,mia-cronjob-reprocesar-algo,GET,http://api-mia.apps.test.lalala.com.ar/api/Procesos/Reprocesar,/api/Procesos/ReprocesarAlgo,0 4 * * *,false
+DEV,api-mia,mia-cronjob-reprocesar-algo,GET,http://api-mia.apps.dev.lalala.com.ar/api/Procesos/Reprocesar,/api/Procesos/ReprocesarAlgo,0 4 * * *,false
+USER,api-mia,mia-cronjob-reprocesar-algo,GET,http://api-mia.apps.user-acceptance.lalala.com.ar/api/Procesos/Reprocesar,/api/Procesos/ReprocesarAlgo,0 4 * * *,false
